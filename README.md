@@ -1,2 +1,2 @@
 # jabascript
-test good js practics
+test ES5 and ES6 practics

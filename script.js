@@ -1,18 +1,18 @@
-var createCounter = function(counterName) {
-    var counter = 0;
+// var createCounter = function(counterName) {
+//     var counter = 0;
 
-    return {
-        increment: function() {
-            counter++;
-        },
-        decrement: function() {
-            counter--;
-        },
-        getCounter: function() {
-            return counter
-        }
-    }
-}
+//     return {
+//         increment: function() {
+//             counter++;
+//         },
+//         decrement: function() {
+//             counter--;
+//         },
+//         getCounter: function() {
+//             return counter
+//         }
+//     }
+// }
 
-var counterA = createCounter('Counter A');
-var counterB = createCounter('Counter B');
+// var counterA = createCounter('Counter A');
+// var counterB = createCounter('Counter B');

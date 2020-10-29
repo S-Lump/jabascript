@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.dropdown {
+    position: relative;
+    width: 400px;
+}
+
+.dropdown.open .dropdown__menu{
+    display: inline;
+}
+
+.dropdown__label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.dropdown__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
